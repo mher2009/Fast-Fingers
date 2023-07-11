@@ -1,0 +1,122 @@
+body {
+  background: #fff url("../assets/img/backgroundimage.jpg") center center /
+    cover no-repeat fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  /* width: min(100% - 30px, 1080px); */
+  margin-inline: auto;
+  text-align: center;
+  height: 100%;
+}
+
+h2 {
+  font-size: 90px;
+  color: #ffb522;
+  font-weight: 5000;
+  letter-spacing: 0.2px;
+  line-height: 60px;
+  font-family: Delicious Handrawn;
+  margin-top: 200px;
+  margin-bottom: 60px;
+}
+
+h2 span {
+  color: #833cff;
+  font-size: 140px;
+}
+
+button {
+  margin-top: 50px;
+  margin-right: 26px;
+  width: 250px;
+  height: 75px;
+  border-radius: 30px;
+  font-size: 36px;
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 5px;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+  background-color: rgb(224, 108, 93);
+}
+
+button:hover {
+  background-color: #6b2bdb;
+  translate: 0px -15px;
+}
+
+figure img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  animation-name: jump;
+  animation-duration: 5s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes jump {
+    0% {
+      left: 20%;
+      transform: translateX(-50%) translateY(0%);
+    }
+  
+    20% {
+      left: 20%;
+      transform: translateX(-50%) translateY(-100%);
+    }
+  
+    40% {
+      left: 20%;
+      transform: translateX(-50%) translateY(0%);
+    }
+  
+    60% {
+      left: 20%;
+      transform: translateX(-50%) translateY(-100%);
+    }
+  
+    80% {
+      left: 20%;
+      transform: translateX(-50%) translateY(0%);
+    }
+  
+    100% {
+      left: 20%;
+      transform: translateX(-50%) translateY(-100%);
+    }
+  }
+
+
+
+  h3 {
+    font-size: 70px;
+    color: #ffb522;
+    font-weight: 5000;
+    letter-spacing: 0.2px;
+    line-height: 60px;
+    font-family: Delicious Handrawn;
+    margin-top: 200px;
+    margin-bottom: 60px;
+  }
+
+
+  h1 {
+    font-size: 250px;
+    color: #ffb522;
+    font-weight: 10000;
+    letter-spacing: 0.2px;
+    line-height: -60px;
+    font-family: Delicious Handrawn;
+    margin-top: 350px;
+    margin-bottom: 250px;
+  }

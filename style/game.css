@@ -1,0 +1,102 @@
+.game {
+    z-index: 1;
+    width: 500px;
+    height: 500px;    
+  }
+  
+  .game .game-part {
+    margin-top: 120px;
+    min-height: 50vh;
+    height: 100%;
+    text-align: center;
+    width: 90%;
+    max-width: 800px;  
+  }
+
+  .game header {
+    margin: 1rem 1rem 10rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  header i {
+    color: #ffb522;
+  }
+
+
+  .higher-score  {
+    height: 50px;
+    width: 200px;
+   font-size: 25px;
+   margin-left: 270px;
+  }
+  .your-score {
+    height: 50px;
+    width: 200px;
+   font-size: 25px;
+  }
+  .input-box {
+    margin-bottom: 8rem;
+    
+  }
+
+  .input-box input {
+    text-align: start;
+    height: 100px;
+    width: 500px;
+    appearance: none;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background: #fff;
+    font-size: 25px;
+  }
+  
+  .input-box input.disabled {
+    background: #ccc;
+  }
+  
+  .input-box input:focus {
+    outline: none;
+  }
+
+
+  .time-bar-div {
+    height: 4px;
+    background: #fff;
+    border-radius: 3px;
+    width: 200px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .time-bar-div span {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: #ffb522;
+  
+  }
+  
+  .time-div  {
+    text-align: center;
+  }
+
+  .time-div p {
+    margin-top: 2rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+  
+  }
+  
+  
+  
+  .word-div p {
+    position: relative;
+    margin: 2 1.5px;
+    font-size: 50px;
+    color:#001487;
+  
+  }
